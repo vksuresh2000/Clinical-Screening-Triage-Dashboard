@@ -1,0 +1,59 @@
+{
+    "name": "3D Corporate Medical Master",
+    "dataColors": [
+        "#1A365D",
+        "#2B6CB0",
+        "#4A5568",
+        "#718096",
+        "#A0AEC0",
+        "#CBD5E0",
+        "#E2E8F0",
+        "#C53030"
+    ],
+    "background": "#F0F4F8",
+    "foreground": "#2D3748",
+    "tableAccent": "#1A365D",
+    "textClasses": {
+        "title": { "fontSize": 14, "fontFace": "Segoe UI Semibold", "color": "#1A365D" },
+        "header": { "fontSize": 11, "fontFace": "Segoe UI Semibold", "color": "#2D3748" },
+        "label": { "fontSize": 9, "fontFace": "Segoe UI", "color": "#718096" }
+    },
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    { "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }
+                ],
+                "border": [
+                    { "show": true, "color": { "solid": { "color": "#E2E8F0" } }, "width": 1 }
+                ],
+                "borderRadius": [
+                    { "radius": 12 }
+                ],
+                "dropShadow": [
+                    { 
+                        "show": true, 
+                        "color": { "solid": { "color": "#D2D9E2" } }, 
+                        "position": "Outer", 
+                        "preset": "BottomRight",
+                        "blur": 15,
+                        "distance": 6
+                    }
+                ],
+                "title": [
+                    { "show": true, "fontFamily": "Segoe UI Semibold", "fontSize": 12, "fontColor": { "solid": { "color": "#1A365D" } }, "alignment": "Left" }
+                ]
+            }
+        },
+        "tableEx": {
+            "*": {
+                "grid": [
+                    { "gridOutline": "Frame", "gridOutlineColor": { "solid": { "color": "#E2E8F0" } }, "gridOutlineWeight": 1 }
+                ],
+                "columnHeaders": [
+                    { "fontColor": { "solid": { "color": "#FFFFFF" } }, "backColor": { "solid": { "color": "#1A365D" } }, "fontFamily": "Segoe UI Semibold", "fontSize": 10 }
+                ]
+            }
+        }
+    }
+}
