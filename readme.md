@@ -1,3 +1,7 @@
+https://github.com/user-attachments/assets/9c577a53-c47c-4157-a919-97ca26a9319c
+
+https://github.com/user-attachments/assets/2b770bef-8d42-43bd-9e2c-188191848529
+
 # 🩺 Clinical Screening Triage & Epidemiological Insights Hub
 
 An enterprise-grade, interactive medical data analytics application built in **Power BI Desktop**. This project bypasses generic business reporting models to engineer a **Clinical Decision Support System (CDSS)** using real-world public health data. It automatically parses hematological biomarkers into diagnostic profiles based on global healthcare rules.
